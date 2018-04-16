@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="44" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="44" timestamp="2018-04-11 15:35:21" hostname="JENKINS$ - 192.168.10.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_153515"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_153515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JENKINS$ - 192.168.10.15"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.10.15"/>
+         <property name="sessionId" value="d27dacc08a79dd9779611b9fee9fe519"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="PASSED">
+         <system-out><![CDATA[2018-04-11 15:35:22 - [TEST_CASE][PASSED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1)
+
+2018-04-11 15:35:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 15:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 15:35:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:35:50 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:35:50 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 15:35:51 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 15:35:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' is clicked on
+
+2018-04-11 15:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' is clicked on
+
+2018-04-11 15:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Start' is clicked on
+
+2018-04-11 15:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Start' is clicked on
+
+2018-04-11 15:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/h1_Wherever you meet' is clicked on
+
+2018-04-11 15:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/h1_Wherever you meet' is clicked on
+
+2018-04-11 15:35:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 15:35:55 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-11 15:35:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 15:35:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 15:35:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:35:58 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 15:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 15:35:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Alloy - collaboration communic/a_About us' is present
+
+2018-04-11 15:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 15:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alloy - collaboration communic/a_About us' is present
+
+2018-04-11 15:35:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is clicked on
+
+2018-04-11 15:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is clicked on
+
+2018-04-11 15:36:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 15:36:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (2)" classname="Test Cases/New Test Case (2)" status="PASSED">
+         <system-out><![CDATA[2018-04-11 15:36:00 - [TEST_CASE][PASSED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2)
+
+2018-04-11 15:36:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 15:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 15:36:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:36:04 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:36:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 15:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 15:36:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/h1_About us' is present
+
+2018-04-11 15:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/h1_About us' is present
+
+2018-04-11 15:36:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is present
+
+2018-04-11 15:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is present
+
+2018-04-11 15:36:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 15:36:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-11 15:35:21 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case (2)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

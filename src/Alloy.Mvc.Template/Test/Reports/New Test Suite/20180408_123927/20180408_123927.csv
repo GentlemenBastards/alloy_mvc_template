@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-04-08 12:39:34,2018-04-08 12:39:41,"7,731s",FAILED
+,,,,,,
+Test Cases/New Test Case (1),,,2018-04-08 12:39:35,2018-04-08 12:39:41,"5,638s",FAILED
+openBrowser,,,2018-04-08 12:39:36,2018-04-08 12:39:41,"4,533s",FAILED

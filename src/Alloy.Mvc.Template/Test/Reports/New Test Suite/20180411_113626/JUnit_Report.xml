@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="87" tests="2" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="1" errors="0" time="87" timestamp="2018-04-11 11:36:30" hostname="JENKINS$ - 192.168.10.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_113626"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_113626\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_113626\\1523439477037.png"/>
+         <property name="hostName" value="JENKINS$ - 192.168.10.15"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.10.15"/>
+         <property name="sessionId" value="e442c9c50ce76e3f865180a14b28b864"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="PASSED">
+         <system-out><![CDATA[2018-04-11 11:36:31 - [TEST_CASE][PASSED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1)
+
+2018-04-11 11:36:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 11:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 11:36:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:06 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:06 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 11:37:07 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 11:37:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' is clicked on
+
+2018-04-11 11:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' is clicked on
+
+2018-04-11 11:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Start' is clicked on
+
+2018-04-11 11:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Start' is clicked on
+
+2018-04-11 11:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test/Page_Alloy - collaboration communic/h1_Wherever you meet' is clicked on
+
+2018-04-11 11:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test/Page_Alloy - collaboration communic/h1_Wherever you meet' is clicked on
+
+2018-04-11 11:37:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 11:37:11 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-11 11:37:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 11:37:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 11:37:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:14 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 11:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 11:37:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Alloy - collaboration communic/a_About us' is present
+
+2018-04-11 11:37:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 11:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Alloy - collaboration communic/a_About us' is present
+
+2018-04-11 11:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is clicked on
+
+2018-04-11 11:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is clicked on
+
+2018-04-11 11:37:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 11:37:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (2)" classname="Test Cases/New Test Case (2)" status="PASSED">
+         <system-out><![CDATA[2018-04-11 11:37:16 - [TEST_CASE][PASSED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2)
+
+2018-04-11 11:37:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 11:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 11:37:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:20 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 11:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' is clicked on
+
+2018-04-11 11:37:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/h1_About us' is present
+
+2018-04-11 11:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 11:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/h1_About us' is present
+
+2018-04-11 11:37:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is present
+
+2018-04-11 11:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-11 11:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/nyttest/Page_About Alloy Inc - NOT FOR COMM/p_Alloy improves the effective' is present
+
+2018-04-11 11:37:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-11 11:37:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (3)" classname="Test Cases/New Test Case (3)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file &quot;C:\sites\testapp\License.config&quot; does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file &quot;C:\sites\testapp\License.config&quot; does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)"/>
+         <system-out><![CDATA[2018-04-11 11:37:21 - [TEST_CASE][FAILED] - Test Cases/New Test Case (3): Test Cases/New Test Case (3) FAILED because (of) Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)
+
+2018-04-11 11:37:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 11:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 11:37:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:25 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 11:37:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)
+
+2018-04-11 11:37:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_113626\\1523439477037.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 11:37:21 - [TEST_CASE][FAILED] - Test Cases/New Test Case (3): Test Cases/New Test Case (3) FAILED because (of) Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-11 11:36:30 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (3) FAILED because (of) Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-11 11:36:30 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (3) FAILED because (of) Unable to click on object 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Alloy - collaboration communic (1)/div_There is a license error o' located by 'By.xpath: //div[(text() = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.' or . = 'There is a license error on this site:The license file "C:\sites\testapp\License.config" does not existThe Web site remains functional, but this message will be displayed until the license error has been corrected.To correct this error:Ensure that you have a valid license file for the site configuration.Store the license file in the application directory.If you do not have a license file, please request one from EPiServer License Center.')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

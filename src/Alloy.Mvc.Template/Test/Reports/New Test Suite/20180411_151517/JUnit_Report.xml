@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="76" tests="0" failures="2" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="2" errors="0" time="76" timestamp="2018-04-11 15:15:21" hostname="JENKINS$ - 192.168.10.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517\\1523452561614.png, C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517\\1523452596712.png"/>
+         <property name="hostName" value="JENKINS$ - 192.168.10.15"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.10.15"/>
+         <property name="sessionId" value="ac43c8c21324824da72f76db81fd8139"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)"/>
+         <system-out><![CDATA[2018-04-11 15:15:22 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)
+
+2018-04-11 15:15:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 15:15:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 15:15:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:15:29 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:15:29 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 15:15:30 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 768
+
+2018-04-11 15:15:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)
+
+2018-04-11 15:16:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517\\1523452561614.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 15:15:22 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (2)" classname="Test Cases/New Test Case (2)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' located by 'By.xpath: //a[@href = '/en/about-us/' and (text() = 'About us' or . = 'About us')]' not found)"/>
+         <system-out><![CDATA[2018-04-11 15:16:01 - [TEST_CASE][FAILED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2) FAILED because (of) Unable to click on object 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' located by 'By.xpath: //a[@href = '/en/about-us/' and (text() = 'About us' or . = 'About us')]' not found)
+
+2018-04-11 15:16:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-11 15:16:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-11 15:16:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-11 15:16:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:16:05 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-11 15:16:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' located by 'By.xpath: //a[@href = '/en/about-us/' and (text() = 'About us' or . = 'About us')]' not found)
+
+2018-04-11 15:16:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' located by 'By.xpath: //a[@href = '/en/about-us/' and (text() = 'About us' or . = 'About us')]' not found)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180411_151517\\1523452596712.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 15:16:01 - [TEST_CASE][FAILED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2) FAILED because (of) Unable to click on object 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nyttest/Page_Alloy - collaboration communic/a_About us' located by 'By.xpath: //a[@href = '/en/about-us/' and (text() = 'About us' or . = 'About us')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-11 15:15:21 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-11 15:15:21 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' located by 'By.xpath: //a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

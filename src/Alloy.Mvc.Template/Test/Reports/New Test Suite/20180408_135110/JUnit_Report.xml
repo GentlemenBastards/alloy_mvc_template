@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="59" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="59" timestamp="2018-04-08 13:51:16" hostname="JENKINS$ - 192.168.10.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_135110"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_135110\\execution0.log, C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_135110\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_135110\\1523188286852.png"/>
+         <property name="hostName" value="JENKINS$ - 192.168.10.15"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.10.15"/>
+         <property name="sessionId" value="a3dadeee-4191-4c75-99ba-79c024d18e97"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)"/>
+         <system-out><![CDATA[2018-04-08 13:51:17 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)
+
+2018-04-08 13:51:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-08 13:51:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-08 13:51:26 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)
+
+2018-04-08 13:51:40 - [MESSAGE][FAILED] - Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_135110\\1523188286852.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-08 13:51:17 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-08 13:51:16 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)]]></system-out>
+      <system-err><![CDATA[2018-04-08 13:51:16 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to navigate to 'http://194.47.174.53/' (Root cause: org.openqa.selenium.WebDriverException: Failed to navigate to http://194.47.174.53/. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:44459/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: a3dadeee-4191-4c75-99ba-79c024d18e97)]]></system-err>
+   </testsuite>
+</testsuites>

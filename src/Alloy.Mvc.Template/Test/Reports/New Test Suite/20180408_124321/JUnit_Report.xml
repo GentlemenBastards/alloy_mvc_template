@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="50" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="50" timestamp="2018-04-08 12:43:27" hostname="Administrator - 192.168.10.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_124321"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_124321\\execution0.log, C:\\Users\\Administrator\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180408_124321\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 192.168.10.15"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value=""/>
+         <property name="hostAddress" value="192.168.10.15"/>
+         <property name="sessionId" value="0664fde2-b1ab-4244-9013-114858280f53"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (1)" classname="Test Cases/New Test Case (1)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})"/>
+         <system-out><![CDATA[2018-04-08 12:43:28 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})
+
+2018-04-08 12:43:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-08 12:43:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-08 12:43:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-08 12:43:34 - [MESSAGE][PASSED] - Navigate to 'http://194.47.174.53/' successfully
+
+2018-04-08 12:43:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})
+
+2018-04-08 12:44:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-08 12:44:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})]]></system-out>
+         <system-err><![CDATA[2018-04-08 12:43:28 - [TEST_CASE][FAILED] - Test Cases/New Test Case (1): Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-08 12:43:27 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})]]></system-out>
+      <system-err><![CDATA[2018-04-08 12:43:27 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case (1) FAILED because (of) Unable to click on object 'Object Repository/Test/Page_Alloy - collaboration communic/a_Alloy Plan' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JENKINS', ip: '192.168.10.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:13461/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 0664fde2-b1ab-4244-9013-114858280f53
+*** Element info: {Using=xpath, value=//a[@href = '/en/alloy-plan/' and (text() = 'Alloy Plan' or . = 'Alloy Plan')]})]]></system-err>
+   </testsuite>
+</testsuites>
