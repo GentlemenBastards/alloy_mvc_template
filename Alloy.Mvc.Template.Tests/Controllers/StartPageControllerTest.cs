@@ -7,18 +7,18 @@ namespace Alloy.Mvc.Template.Tests.Controllers
     public class StartPageControllerTest
     {
         [TestMethod]
-        public void test()
+        public void Test()
         {
-            string str = "test";
-            
+            const string str = "test";
+
             // Assert
             Assert.IsNotNull(str);
         }
 
         [TestMethod]
-        public void test2()
+        public void Test2()
         {
-            string str = null;
+            const string str = null;
 
             // Assert
             Assert.IsNull(str);
