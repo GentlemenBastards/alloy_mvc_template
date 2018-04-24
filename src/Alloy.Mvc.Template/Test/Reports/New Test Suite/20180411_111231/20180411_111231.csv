@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-New Test Suite,Chrome 65.0.3325.181,,2018-04-11 11:12:37,2018-04-11 11:12:49,"11,863s",FAILED
-,,,,,,
-Test Cases/New Test Case (3),Chrome 65.0.3325.181,,2018-04-11 11:12:39,2018-04-11 11:12:48,"9,191s",FAILED
-openBrowser,Chrome 65.0.3325.181,,2018-04-11 11:12:39,2018-04-11 11:12:45,"5,820s",PASSED
-navigateToUrl,Chrome 65.0.3325.181,,2018-04-11 11:12:45,2018-04-11 11:12:47,"1,372s",PASSED
-click,Chrome 65.0.3325.181,,2018-04-11 11:12:47,2018-04-11 11:12:47,"0,455s",PASSED
-click,Chrome 65.0.3325.181,,2018-04-11 11:12:47,2018-04-11 11:12:48,"0,713s",FAILED
