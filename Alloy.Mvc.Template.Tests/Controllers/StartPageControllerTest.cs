@@ -9,7 +9,7 @@ namespace Alloy.Mvc.Template.Tests.Controllers
         [TestMethod]
         public void Test()
         {
-            const string str = "test";
+            const string str = null;
 
             // Assert
             Assert.IsNotNull(str);
