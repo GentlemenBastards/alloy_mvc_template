@@ -22,9 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://194.47.174.53/')
+WebUI.navigateToUrl('http://localhost:54709/')
 
-WebUI.setViewPortSize(1024, 768)
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Test/Page_Alloy - collaboration communic/a_Alloy Plan'))
 
@@ -36,7 +36,9 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://194.47.174.53/')
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Page_Alloy - collaboration communic/a_About us'))
 

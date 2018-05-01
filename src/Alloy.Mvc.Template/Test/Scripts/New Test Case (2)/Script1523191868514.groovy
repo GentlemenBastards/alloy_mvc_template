@@ -22,6 +22,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1920, 1080)
+
 WebUI.navigateToUrl('http://194.47.174.53/')
 
 WebUI.click(findTestObject('nyttest/Page_Alloy - collaboration communic/a_About us'))

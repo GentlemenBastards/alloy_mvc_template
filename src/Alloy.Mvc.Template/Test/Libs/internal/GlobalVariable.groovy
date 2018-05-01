@@ -13,14 +13,23 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object URL
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['URL' : 'http://194.47.174.53/'])
+        allVariables.put('Production', allVariables['default'] + [:])
+        allVariables.put('QA', allVariables['default'] + ['URL' : 'http://194.47.174.53/'])
+        allVariables.put('local', allVariables['default'] + ['URL' : 'http://localhost:54709'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        URL = selectedVariables['URL']
         
     }
 }
